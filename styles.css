@@ -370,8 +370,6 @@ footer .social-icons a {
 }
 
 section {
-    padding: 50px;
-    margin: 20px 0;
     border-radius: 10px;
     opacity: 0; /* Initially hidden */
     transform: translateY(20px); /* Slightly move down */
