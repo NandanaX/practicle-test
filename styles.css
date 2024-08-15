@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap');
+
+/* color and font  pallet define */
+:root {
+    --primary-color: #181818;
+    --secondary-color: #a460f9;
+    --Pure-wite: #ffffff;
+    --Pure-wite: #e6e6e6; 
+
+    --font-nav: 'Oswald', sans-serif;
+    --font-Body: "Krub", sans-serif;
+
+}
+body {
+    background-color: var(--primary-color);
+    color: var(--Pure-wite);
+}
+
+/* Buttons Styles */
+p{
+    font-family: var(--font-Body);
+ }
+
+.btn-secondary{
+    border-radius: 0px;
+    padding: 8px 20px;
+    background-color: var(--Pure-wite);
+    color: var(--primary-color);
+    font-family:var(--font-nav);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+.btn-primary{
+    border-radius: 0px;
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    color: var(--Pure-wite);
+    font-family:var(--font-nav);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+.btn-primary:hover{
+    border-radius: 0px;
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    color: var(--Pure-wite);
+    font-family:var(--font-nav);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+}
+
+.btn-outline{
+    border-radius: 0px;
+    padding: 8px 20px;
+    background-color: var(--primary-color);
+    color: var(--Pure-wite);
+    font-family:var(--font-nav);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.btn-outline:hover{
+    border-radius: 0px;
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    color: var(--Pure-wite);
+    font-family:var(--font-nav);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+    outline: none;
+}
+
+
+.btn-secondary:hover{
+    border-radius: 0px;
+    padding: 8px 20px;
+    background-color: var(--secondary-color);
+    color: var(--Pure-wite);
+    font-family:var(--font-nav);
+    font-weight: 700;
+    font-style: normal;
+    text-transform: uppercase;
+}
+/* END Of Button styles */
+
+ /* Start of Navigations Styles  */
+.navbar  a, .navbar-brand, .nav-item a{
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight:700;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--Pure-wite);
+  }
+  .navbar-toggler{
+    background: #fff;
+    border-radius: 0px;
+  }
+  .nav-item  a.active {
+    color: var(--Pure-wite) !important;
+    text-decoration: underline;
+  }
+  .nav-item  a:hover,a:focus{
+    color:var(--secondary-color)!important;
+  }
+
+  .navbar .nav-item{
+    padding: 0px 28px;
+}
+.navbar .me-auto{
+    margin: auto;
+}
+.navbar-toggler-icon {
+    color: #fff !important;
+}
+
+/* End Of Navigation Styles */
+
+
+.hero {
+    padding-top: 60px;
+    background-size: cover;
+}
+.hero-cl-01{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+.hero-cl-01 h1{
+    font-family:var(--font-Body);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 100px;
+}
+.hero-cl-01 h1::after {
+    content: ".";
+    color: var(--secondary-color); 
+    font-weight: bold;
+}
+
+.hero-cl-01 .d2{
+ display: inline-block;
+ transform: rotate(270deg);
+ margin-top: 80px;
+ margin-left: -84px;
+}
+
+.hero-cl-01 .d3{
+    margin: auto;
+    font-family: var(--font-Body);
+    font-weight: 700;
+    text-transform: uppercase;
+   }
+
+.hero-cl-01 p{
+    font-family: "Krub", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.hero-cl-01 p::after {
+    content: "'s"; 
+    color: var(--Pure-wite); 
+    font-weight: bold; 
+}
+
+.hero-cl-02{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hero-cl-02 h4, .hero-cl-02 p{
+    font-family: var(--font-Body);
+    text-transform: uppercase;
+    text-align: left;
+    font-weight: 700;
+}
+
+.hero-cl-02 p{
+    font-family: var(--font-Body);
+    text-transform: lowercase;
+    text-align: left;
+    font-weight: 700;
+}
+.material-symbols-outlined.add-icon     {
+    font-size: 28px;
+    color: var(--secondary-color);
+    font-weight: 700;
+}
+
+.js-load{
+    background-image: url(./img/bck.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.js-load h1{
+        font-family: var(--font-Body);
+        font-size: 60px;
+}
+.challenge-text{
+    text-align: center;
+}
+.style1 {
+    font-weight: bold;
+    line-break: auto;
+}
+
+.style1 {
+    font-weight: bold;
+    line-break: strict;
+}
+.style2::before {
+    content: " ";
+}
+
+.style3 {
+ font-weight: bold;
+}
+
+/* slider css */
+.slider-card{
+    border: 4px solid var(--Pure-wite);
+}
+.slider-card h1{
+    font-family: var(--font-Body);
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.slider-card p{
+    font-family: var(--font-Body);
+    font-weight: 700;
+}
+.styled-hr {
+    border: 0; 
+    height: 2px; 
+    background: linear-gradient(to right, transparent,var(--secondary-color), transparent);
+    margin: 20px 0; 
+}
+.slider-card .course{
+    color: var(--Pure-wite);
+}
+.slider-card .number{
+    color: var(--secondary-color);
+}
+
+.card-number{
+    padding: 12px;
+    width: 68px;
+    text-align: left;
+    background-color : var(--Pure-wite);    
+    margin: 0px;
+    color: var(--primary-color);
+    font-size: 28px
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: start; /* Align items to the start */
+}
+
+@keyframes slideLeft {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+.carousel-slide {
+    display: flex;
+    animation: slideLeft 50s linear infinite; /* Slide left over 6 seconds */
+}
+
+.challenges {
+    background-color: #1a1a1a;
+}
+
+.courses h2, .courses .course-card {
+    color: #fff;
+}
+
+.course-card {
+    background-color: #333;
+    border-radius: 10px;
+}
+
+/* footer styles */
+
+footer {
+    background-color: var(--secondary-color);
+    font-family: var(--font-Body);
+    text-align: left;
+   
+}
+
+footer .container{
+    padding: 60px 0px;
+}
+
+footer hr{
+    border: none;
+    border-top: 2px solid var(--Pure-wite);
+    height: 2px; 
+}
+footer h4,li{
+    text-align: left;
+}
+
+footer .footer-tag {
+    margin-bottom: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid var(--Pure-wite);
+    width: fit-content;
+}
+footer .newsletter-tag{
+    margin-bottom: 20px;
+    font-weight: 700;
+    text-align: right !important
+}
+
+footer .news-input{
+    background-color: var(--secondary-color);
+    border-radius: 0px;
+    border: 2px solid var(--Pure-wite);
+    color: var(--Pure-wite);
+}
+.news-input::placeholder {
+    color: var(--Pure-wite);
+}
+
+.form-control:focus {
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    border-color:var(--Pure-wite);
+    outline: 0;
+    box-shadow: none ;
+}
+.social-icons a {
+    text-decoration: none !important;
+}
+.social-icons .s-icons{
+    height:60px ;
+    width: 60px;
+    color: var(--secondary-color);
+    background: var(--Pure-wite);
+    padding: 16px;
+    margin: 0px 12px;
+    border-radius: 40px;
+}
+footer .social-icons a {
+    font-size: 18px;
+}
+
+section {
+    padding: 50px;
+    margin: 20px 0;
+    border-radius: 10px;
+    opacity: 0; /* Initially hidden */
+    transform: translateY(20px); /* Slightly move down */
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+/* Animation class */
+.animate-on-load {
+    animation: fadeInUp 1s ease-out forwards;
+}
+
+/* Keyframes for fade-in and slide-up effect */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Optional: Add some delay to create a staggered effect */
+.animate-on-load:nth-of-type(1) { animation-delay: 0.2s; }
+.animate-on-load:nth-of-type(2) { animation-delay: 0.4s; }
+.animate-on-load:nth-of-type(3) { animation-delay: 0.6s; }
+
+@media (max-width: 480px) {
+    *h1{
+        font-size: 40px;
+    }
+    .container {
+        width: 100%;
+    }
+
+    header {
+        font-size: 1.2em;
+    }
+
+    nav ul li {
+        font-size: 0.8em;
+    }
+
+    footer .container {
+        padding: 20px;
+    }
+    .js-load {
+        width: 100%;
+        height: 40vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
